@@ -1,0 +1,10 @@
+^C:\USERS\81708\PROJECTS\FLUTTER_PROJECTS\GAME_7THBOMBER\BUILD\WINDOWS\X64\CMAKEFILES\EC0DBAB539F1F77029F15F9D254FC4BE\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/81708/Projects/flutter_projects/game_7thbomber/windows -BC:/Users/81708/Projects/flutter_projects/game_7thbomber/build/windows/x64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/81708/Projects/flutter_projects/game_7thbomber/build/windows/x64/game_7thbomber.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
